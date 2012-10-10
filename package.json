@@ -1,0 +1,29 @@
+{
+  "name": "bird-down",
+  "description": "Markdown augmented with twitter-text.",
+  "author": "Ryan Ramage",
+  "version": "0.0.1",
+  "main": "bird-down.js",
+  "repository": "git://github.com/eckoit/bird-down.git",
+  "homepage": "https://github.com/eckoit/bird-down",
+  "bugs": { "url": "http://github.com//eckoit/bird-down/issues" },
+  "keywords": [ "markdown", "markup", "html" ],
+  "tags": [ "markdown", "markup", "html" ],
+  "dependencies": {
+      "marked-bird-down": ">=0.2.4",
+      "twitter-text": ">=1.5.0"
+  },
+  "maintainers":[
+        {
+            "name":"Ryan Ramage",
+            "web":"https://github.com/ryanramage"
+        }
+    ],
+  "repositories":[
+        {
+            "type":"git",
+            "url":"https://github.com/eckoit/bird-down"
+        }
+    ]
+
+}
