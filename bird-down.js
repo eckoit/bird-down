@@ -60,12 +60,11 @@
     }
 
     birddown.prototype.parse = function(str) {
-        marked.setOptions(this.settings);
         var temp = str;
         if (this.settings.doublebrackets) {
             temp = transformDoubleBrackets(temp, this.settings);
         }
-        temp = marked(temp);
+        temp = marked(temp, this.settings);
         temp =  twttr_txt.autoLinkUsernamesOrLists(temp, this.settings);
         temp =  twttr_txt.autoLinkHashtags(temp, this.settings);
 
